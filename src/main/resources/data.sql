@@ -1,0 +1,14 @@
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (1, 'Sachin', 'Tendulkar', 'Sachin@Tendulkar.ind', '123 Butternut Crossing', 'Mumbai', 'India', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (2, 'Desmond', 'Haynes', 'Desmond@Haynes.wi', '123 Maple Wood Circle', 'West', 'Indies', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (3, 'Kapil', 'Dev', 'Kapil@Dev.ind', '123 Mariners Cove Point', 'Chandigarh', 'India', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (4, 'Brian', 'Lara', 'Brian@Lara.it', '123 Buell Court', 'West', 'Indies', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (5, 'MS', 'Dhoni', 'MS@Dhoni.ind', '123 Lawn Street', 'Patna', 'India', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (6, 'Sir Curtly Elconn Lynwall', 'Ambrose', 'Curtly@Ambrose.wi', '123 Boyd Park', 'West', 'Indies', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (7, 'Sir Clive Hubert', 'Lloyd', 'Clive@Lloyd.wi', '123 Larry Avenue', 'West', 'Indies', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (8, 'Sir Cuthbert Gordon', 'Greenidge', 'Cuthbert@Greenidge.wi', '123 Shelley Way', 'West', 'Indies', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (9, 'Courtney Andrew', 'Walsh OJ', 'Courtney@Walsh.wi', '123 Dunning Crossing', 'West', 'Indies', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (10, 'Malcolm Denzil', 'Marshall', 'Malcolm@Marshall.wi', '123 Darwin Junction', 'West', 'Indies', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (11, 'David Clarence', 'Boon', 'David@Boon.au', '123 Elmside Circle', 'Syndey', 'Australia', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (12, 'Ricky', 'Ponting', 'Ricky@Ponting.au', '123 Mallory Center', 'Syndey', 'Australia', '(123) 123-1234');
+insert into customer (id, first_name, last_name, email_address, address, city, country, phone_number) values (13, 'Wasim', 'Akram', 'Wasim@Akram.pak', '123 Waywood Court', 'Lahore', 'Pakistan', '(123) 123-1234');
+
