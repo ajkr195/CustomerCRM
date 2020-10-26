@@ -3,9 +3,7 @@
 <head>
 <title>Simple CRM - Customer Management made Simple</title>
 
-<link
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-	rel="stylesheet" crossorigin="anonymous">
+<link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.css}" />
 
 </head>
 <body>
@@ -25,8 +23,7 @@
 				<form action="/customer/delete" method="post"
 					onsubmit="return confirm('Are you sure?');">
 					<input type="hidden" name="id" th:value="${customerInstance.id}" />
-					<button
-						class="btn btn-danger btn-outline-danger d-block d-sm-inline-block">Delete
+					<button class="btn btn-sm btn-outline-danger">Delete
 						Customer</button>
 				</form>
 			</span>
@@ -105,11 +102,14 @@
 					<p class="text-center text-muted">
 						&copy; <span
 							th:text="${#dates.format(#dates.createNow(), 'yyyy')}"></span> <a
-							href="https://tucanoo.com">Tucanoo Solutions Ltd.</a>
+							href="https://github.com/ajkr195?tab=repositories">Spring
+							Boot Rocks.</a>
 					</p>
 				</div>
 			</div>
 		</div>
 	</footer>
+	<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+	<script th:src="@{/webjars/bootstrap/js/bootstrap.bundle.min.js}"></script>
 </body>
 </html>
